@@ -1,0 +1,380 @@
+[
+  {
+    "title": "Game of Thrones",
+    "description": "Extraordinary historical drama with stunning production values and fantastic acting performances. But a very poorly written ending to a great story.",
+    "rating": 8.5,
+    "image_src": "./posters/series/got.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Wheel of time",
+    "description": "It has stunning visuals, immersive world-building, and strong storytelling that improves with each season. There was problem with pacing but picked up by the second season. Good watch!",
+    "rating": 8.0,
+    "image_src": "./posters/series/wheel-of-time.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Vincenzo",
+    "description": "It's really good, it is very entertaining. Well written, great direction, that cast is amazing. It has everything - laughs, tears, revenge, and so much more. I loved it!",
+    "rating": 9.0,
+    "image_src": "./posters/series/Vincenzo.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Echo",
+    "description": "One of the weakest series in the MCU. The plot is very predictable and clichéd. The character development is shallow, and the pacing is uneven. Overall, it fails to deliver a compelling story.",
+    "rating": 5.5,
+    "image_src": "./posters/series/echo.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Berlin",
+    "description": "Was a good addition to the Money Heist universe. The character development of Berlin was well done, and the plot was engaging. However, it lacked the same level of intensity and suspense as the original series.",
+    "rating": 7.5,
+    "image_src": "./posters/series/berlin.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Moon Knight",
+    "description": "A very different take on the superhero genre, with a darker and more psychological approach. The lead performance is outstanding, and the story is engaging and thought-provoking. I would say one of the best Marvel shows.",
+    "rating": 8.5,
+    "image_src": "./posters/series/moon-knight.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Stranger Things",
+    "description": "The best series ever! The storyline is captivating, the characters are well-developed, and the 80s nostalgia is on point. The suspense and supernatural elements keep you hooked from start to finish. A must-watch for everyone!",
+    "rating": 9.5,
+    "image_src": "./posters/series/stranger-things.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Titans",
+    "description": "A good DC series with a darker tone and complex characters. The action scenes are well choreographed, and the storyline is engaging. However, it can be a bit slow at times, and some plot points feel underdeveloped.",
+    "rating": 7.5,
+    "image_src": "./posters/series/titans.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "The Flash",
+    "description": "Was the best dc series until crisis on infinite earths. The first few seasons were fantastic with great character development and exciting storylines. However, the later seasons became repetitive and lost some of their charm. Overall, still a good watch for superhero fans.",
+    "rating": 7.5,
+    "image_src": "./posters/series/flash.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Agatha All Along",
+    "description": "A decent addition to the MCU, focusing on the character of Agatha Harkness. While it has its moments of intrigue and character development, it falls short in terms of plot originality and pacing. Overall, an average watch.",
+    "rating": 7.0,
+    "image_src": "./posters/series/agatha.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Ironheart",
+    "description": "A decent addition to the MCU, focusing on Riri Williams. While it has its moments of intrigue and character development, it falls short in terms of plot originality and pacing. Overall, an average watch.",
+    "rating": 6.5,
+    "image_src": "./posters/series/ironheart.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Daredevil Born Again",
+    "description": "One of the best rough and rustic superhero series out there. The storyline is gripping, the action sequences are intense, and the character development is top-notch. Charlie Cox delivers a stellar performance as Daredevil. A must-watch for any superhero fan!",
+    "rating": 8.5,
+    "image_src": "./posters/series/dd-born-again.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Hawkeye",
+    "description": "A very good series but underrated in my opinion. Kate bishop's character was well developed and added a fresh dynamic to the show. The action sequences were thrilling, and the holiday setting provided a unique backdrop. Overall, a solid addition to the MCU.",
+    "rating": 7.0,
+    "image_src": "./posters/series/hawkeye.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Ms. Marvel",
+    "description": "It is also a very good yet underrated series. Kamala Khan's character was relatable and refreshing, bringing a new perspective to the MCU. The show effectively blended superhero action with cultural themes, making it both entertaining and meaningful. Overall, a great watch!",
+    "rating": 7.0,
+    "image_src": "./posters/series/ms-marvel.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Eyes of Wakanda",
+    "description": "A new take on the Marvel universe, focusing on the rich culture and history of Wakanda. The series offers a unique perspective and delves deeper into the lives of its characters. While it has its strengths, it may not appeal to all Marvel fans due to its slower pace and emphasis on cultural themes.",
+    "rating": 7.5,
+    "image_src": "./posters/series/eyes-of-wakanda.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "She Hulk: Attorney at Law",
+    "description": "The worst MCU series till date. The humor falls flat, the plot is weak, and the character development is lacking. It fails to capture the essence of the comics and feels more like a sitcom than a superhero show. Overall, a disappointing addition to the MCU. Don't watch it at all.",
+    "rating": 5.0,
+    "image_src": "./posters/series/she-hulk.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Loki",
+    "description": "The top MCU series till date. Tom Hiddleston delivers a captivating performance as Loki, bringing depth and complexity to the character. The storyline is intriguing, filled with twists and turns that keep you hooked. The exploration of the multiverse adds an exciting dimension to the Marvel universe. Overall, a must-watch for any Marvel fan!",
+    "rating": 9.0,
+    "image_src": "./posters/series/loki.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "The Boys",
+    "description": "I",
+    "rating": 8.5,
+    "image_src": "./posters/series/boys.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Gen V",
+    "description": "I",
+    "rating": 7.5,
+    "image_src": "./posters/series/genv.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Marvel Zombies",
+    "description": "I",
+    "rating": 8.0,
+    "image_src": "./posters/series/marvel-zombies.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Peacemaker",
+    "description": "I",
+    "rating": 8.0,
+    "image_src": "./posters/series/peacemaker.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Money Heist",
+    "description": "I",
+    "rating": 9.5,
+    "image_src": "./posters/series/money-heist.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Dark",
+    "description": "I",
+    "rating": 8.5,
+    "image_src": "./posters/series/dark.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "WandaVision",
+    "description": "I",
+    "rating": 8.0,
+    "image_src": "./posters/series/wandavision.png",
+    "status": "Completed"
+  },
+  {
+    "title": "I am Groot",
+    "description": "I",
+    "rating": 7.0,
+    "image_src": "./posters/series/I-am-groot.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Lucifer",
+    "description": "I",
+    "rating": 8.5,
+    "image_src": "./posters/series/lucifer.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "House of the Dragon",
+    "description": "I",
+    "rating": 8.5,
+    "image_src": "./posters/series/hotd.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "What If...?",
+    "description": "I",
+    "rating": 7.0,
+    "image_src": "./posters/series/what-if.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Suzhal: The Vortex",
+    "description": "I",
+    "rating": 7.5,
+    "image_src": "./posters/series/suzhal.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "The Last of Us",
+    "description": "I",
+    "rating": 7.5,
+    "image_src": "./posters/series/last-of-us.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "All of Us Are Dead",
+    "description": "I",
+    "rating": 8.0,
+    "image_src": "./posters/series/all-of-us-r-dead.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Wednesday",
+    "description": "I",
+    "rating": 8.0,
+    "image_src": "./posters/series/wednesday.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Sex Education",
+    "description": "I",
+    "rating": 7.0,
+    "image_src": "./posters/series/sex-education.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Alice in Borderland",
+    "description": "I",
+    "rating": 8.5,
+    "image_src": "./posters/series/alice-in-borderland.webp",
+    "status": "Completed"
+  },
+  {
+    "title": "The Falcon And The Winter Soldier",
+    "description": "I",
+    "rating": 7.5,
+    "image_src": "./posters/series/falcon-ws.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Secret Invasion",
+    "description": "I",
+    "rating": 6.0,
+    "image_src": "./posters/series/secret-invasion.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "3 Body Problem",
+    "description": "I",
+    "rating": 8.0,
+    "image_src": "./posters/series/3bodyproblem.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Fallout",
+    "description": "I",
+    "rating": 8.0,
+    "image_src": "./posters/series/fallout.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Superman & Lois",
+    "description": "I",
+    "rating": 7.5,
+    "image_src": "./posters/series/superman&Lois.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Friends",
+    "description": "I",
+    "rating": 10.0,
+    "image_src": "./posters/series/friends.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "X-Men '97",
+    "description": "I",
+    "rating": 8.0,
+    "image_src": "./posters/series/xmen-97.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Citadel",
+    "description": "I",
+    "rating": 7.0,
+    "image_src": "./posters/series/citadel.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Squid Game",
+    "description": "I",
+    "rating": 8.0,
+    "image_src": "./posters/series/squid-game.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "The 8 Show",
+    "description": "I",
+    "rating": 7.5,
+    "image_src": "./posters/series/8show.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Monarch: Legacy of Monsters",
+    "description": "I",
+    "rating": 7.5,
+    "image_src": "./posters/series/monarch.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Invincible",
+    "description": "I",
+    "rating": 8.0,
+    "image_src": "./posters/series/invincible.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Avatar: The Last Airbender",
+    "description": "I",
+    "rating": 8.0,
+    "image_src": "./posters/series/avatar-last-airbender.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "One Piece",
+    "description": "Perfect live-action adaptation of the anime with great visuals and acting. Perfect casting and attention to detail. A must-watch for all general audience and One Piece fans alike!",
+    "rating": 8.5,
+    "image_src": "./posters/series/one-piece.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Dhootha",
+    "description": "Filled with murder and mystery and a lot of suspense. A unique storyline with unexpected twists and turns. This is a must watch series.",
+    "rating": 7.5,
+    "image_src": "./posters/series/dhootha.webp",
+    "status": "Completed"
+  },
+  {
+    "title": "Weak Hero Class 1",
+    "description": "A classic take on the growth of a high school student from being weak to becoming strong. The character development is well done and the storyline is emotional and engaging. A good watch in my opinion.",
+    "rating": 8.0,
+    "image_src": "./posters/series/weak-hero.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Death's Game",
+    "description": "A unique story with the concept of rebirth and value of life. A very good watch and I highly recommend it to everyone.",
+    "rating": 8.0,
+    "image_src": "./posters/series/deaths-game.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Creature Commandoes",
+    "description": "A good addition to the new DC uiverse. The animation style is unique and visually appealing. Feels like an animated suicide squad sequel. But the end lacks that intensity. Overall, a good watch if you like antihero shows.",
+    "rating": 7.5,
+    "image_src": "./posters/series/creature-commandoes.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "The Night Manager",
+    "description": "A good take on a common-man turned spy trope. The performances are solid, and the plot is engaging with enough twists to keep you hooked. Overall, a decent watch for fans of espionage thrillers.",
+    "rating": 8.0,
+    "image_src": "./posters/series/night-manager.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Percy Jackson And The Olympians",
+    "description": "Is a good adaptation of the book series. But there are some flaws like reduced intensity in certain action sequences. Overall, it's an enjoyable watch for fans of the books and newcomers alike.",
+    "rating": 8.0,
+    "image_src": "./posters/series/percy-jackson.jpg",
+    "status": "Ongoing"
+  }
+]

@@ -1,0 +1,180 @@
+:root {
+    --dark-bg: #292c32;
+    --primary-color: #ffc107; /* Yellow/Gold for highlights */
+    --secondary-color: #6c757d;
+    --light-bg: #a6adb4;
+}
+
+/* Base Layout and Colors */
+body {
+    /* REMOVE the background-color for the body */
+    /* background-color: #292c32; */ 
+    
+    /* ADD the image background: */
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    
+    /* Keep these for text visibility and layout */
+    color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    /*background-color: #1e2125 !important;*/
+    background-color: black !important;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.navbar-brand, .nav-link {
+    color: #f8f9fa !important;
+}
+
+.nav-link.active, .nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+.main-content {
+    padding: 40px 0;
+    flex-grow: 1;
+}
+
+/*
+* MODIFIED: Enhanced Movie Card Styling
+* Added transition for smooth scaling and Z-index for hover layering.
+*/
+.movie-card {
+    background-color: #343a40;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    
+    /* CORE CHANGE: Added transition for smooth hover effects */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    /* Ensures the card is positioned for Z-index to work */
+    position: relative; 
+    
+    /* Base scale for consistency */
+    transform: scale(1);
+}
+
+/* * NEW/MODIFIED: Magnify and Minimize Effect (Responsive)
+* This scales the card up and gives it a prominent glow on hover/focus.
+*/
+.movie-card:hover,
+.movie-card:focus-within { /* :focus-within handles focusing on child elements (like buttons) */
+    transform: scale(1.03); /* Magnify the card by 3% */
+    box-shadow: 0 10px 20px rgba(255, 193, 7, 0.6); /* Prominent gold glow/shadow */
+    z-index: 10; /* Ensures the card appears above its neighbors when magnified */
+}
+
+
+/* Fixed Image Size Styling (2:3 Aspect Ratio) */
+.movie-poster-container {
+    width: 100%;
+    padding-bottom: 150%; 
+    position: relative;
+    overflow: hidden;
+}
+
+.movie-poster-container .card-img-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-top-left-radius: var(--bs-card-border-radius); 
+    border-top-right-radius: var(--bs-card-border-radius);
+}
+
+/* Rating Badge Styling */
+.rating-badge {
+    background-color: var(--primary-color);
+    color: #1e2125;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.rating-badge::before {
+    content: '⭐ '; 
+}
+
+/* Custom Alert Styling (for visual compatibility) */
+.custom-alert {
+    background-color: var(--primary-color); /* Gold background */
+    color: #1e2125; /* Dark text on gold */
+    border: none;
+    box-shadow: 0 8px 16px rgba(255, 193, 7, 0.6); /* Prominent gold shadow */
+    margin-top: 30px; 
+    padding: 18px 25px; 
+    border-radius: 8px; 
+    font-size: 1.25rem; 
+    font-weight: 500;
+    display: flex; /* Ensure it uses flex when visible */
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between icon and text */
+}
+
+/* Ensure the text inside the alert is properly styled */
+.custom-alert strong {
+    color: #1e2125 !important; 
+    font-weight: 700; 
+}
+
+
+/* Footer Styling */
+.footer {
+    background-color: #1e2125;
+    color: var(--secondary-color);
+    padding: 15px 0;
+    text-align: center;
+    margin-top: auto; 
+}
+
+/* ... other styles remain the same ... */
+
+/* Rating Badge Styling (MODIFIED FOR FIXED SIZE) */
+.rating-badge {
+    background-color: var(--light-bg);
+    color: #1e2125;
+    font-weight: bold;
+    font-size: 1.1em;
+    
+    /* --- CORE SIZE FIX --- */
+    width: 140px; /* Adjust this value if needed, based on your layout */
+    height: 40px; /* Fixed height for consistency */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* --- END SIZE FIX --- */
+    
+    padding: 8px 15px; /* Padding helps text alignment, but fixed size dominates */
+    border-radius: 5px;
+}
+
+.rating-badge::before {
+    content: '⭐  '; 
+    margin-right: 5px;
+}
+
+/* NEW: Style for the Status Button to match the Rating Badge size and remove border */
+.status-indicator {
+    /* --- CORE SIZE FIX --- */
+    width: 140px !important; 
+    height: 40px !important;
+    /* --- END SIZE FIX --- */
+    
+    border: none !important; /* Remove default button border */
+    font-weight: bold !important;
+    font-size: 1.0em !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* ... rest of your style.css ... */

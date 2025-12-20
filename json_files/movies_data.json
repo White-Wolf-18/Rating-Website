@@ -1,0 +1,212 @@
+[
+  {
+    "title": "Kantara: A Legend Chapter-1",
+    "description": "A very beautifully directed film. First half might be a bit slow but an extremely engaging second half. Rishab shetty went god tier in acting. Overall a must watch for everyone.",
+    "rating": 9.0,
+    "year": 2025,
+    "image_src": "./posters/movies/kantara2.jpg"
+  },
+  {
+    "title": "They Call Him OG",
+    "description": "An acton packed entertainer with very good fight scenes and visuals. A must watch for all PK fans and action lovers. But a bad story with too many loose ends. Overall a good watch.",
+    "rating": 7.0,
+    "year": 2025,
+    "image_src": "./posters/movies/og.jpg"
+  },
+  {
+    "title": "Dude",
+    "description": "A heartbreaking drama that will keep you on the edge of your seat. Sometimes you might fall off and want to get out. Motivates you to leave the hall after the interval. Watch it if you want a very emotional experience.",
+    "rating": 6.5,
+    "year": 2025,
+    "image_src": "./posters/movies/dude.jpg"
+  },
+  {
+    "title": "Captain America: Brave New World",
+    "description": "Most of the movie is pretty good with good action but the story is weak and predictable. Sets up sam wilson as cap very well. The ending sequence is really good though. Overall a decent watch for MCU fans.",
+    "rating": 7.5,
+    "year": 2025,
+    "image_src": "./posters/movies/cap-america-bnw.jpg"
+  },
+  {
+    "title": "Kubera",
+    "description": "An emotional story of how a beggar is drawn into a conflict with a powerful bussinessman. Pretty good performances by the lead actors. A very long film with a badly written A decent one-time watch overall.",
+    "rating": 7.5,
+    "year": 2025,
+    "image_src": "./posters/movies/kubera.jpg"
+  },
+  {
+    "title": "F1",
+    "description": "One of the best racing movies ever made. Stunning visuals and racing sequences that put you in the driver's seat. Brad Pitt kills it with his performance as Sonny Hayes. A must watch for racing fans and action lovers.",
+    "rating": 9.5,
+    "year": 2025,
+    "image_src": "./posters/movies/f1.jpg"
+  },
+  {
+    "title": "Sitaare Jameen Par",
+    "description": "A heartwarming story about how dreams can take flight against all odds even for ones who we think are not meant to fly. Excellent performances and beautiful cinematography. A must watch for everyone.",
+    "rating": 8.0,
+    "year": 2025,
+    "image_src": "./posters/movies/sitaare.jpg"
+  },
+  {
+    "title": "Final Destinaton: Bloodlines",
+    "description": "I would say this is one of the best in the franchise. The death scenes are creative and well executed. The story is engaging and keeps you hooked till the end. A must watch for horror fans.",
+    "rating": 8.0,
+    "year": 2025,
+    "image_src": "./posters/movies/fd-bloodlines.jpg"
+  },
+  {
+    "title": "Thunderbolts*",
+    "description": "A very different kind of superhero movie focusing on anti-heroes. Good action sequences, comedy and decent performances by the cast. The story is a bit weak and predictable. Overall a decent watch for MCU fans.",
+    "rating": 9.0,
+    "year": 2025,
+    "image_src": "./posters/movies/thunderbolts.jpg"
+  },
+  {
+    "title": "Mission Impossible: The Final Reckoning",
+    "description": "I wouldn't say this is the best MI movie but it is definitely a good one. Tom Cruise delivers his usual high-octane performance with some breathtaking stunts. The story is engaging and keeps you hooked till the end. A must watch for action lovers.",
+    "rating": 7.5,
+    "year": 2025,
+    "image_src": "./posters/movies/mi-final-reckoning.jpg"
+  },
+  {
+    "title": "Hit: The Third Case",
+    "description": "Very good action movie with okay story and very good performance from Nani. Action scenes are very violent and well choreographed. A must watch for action lovers especially if you love the hit series.",
+    "rating": 8.0,
+    "year": 2025,
+    "image_src": "./posters/movies/hit3.jpg"
+  },
+  {
+    "title": "Game Changer",
+    "description": "Really a game changer for Shankar. One of the worst and most boring movies of the year. Poor screenplay, weak story and okay performances. A huge disappointment overall.",
+    "rating": 6.0,
+    "year": 2025,
+    "image_src": "./posters/movies/game-changer.jpg"
+  },
+  {
+    "title": "Dragon",
+    "description": "A very fun film that will teach the importance of being true to oneself. Good performances and stunning visuals. A must watch for comedy lovers.",
+    "rating": 8.0,
+    "year": 2025,
+    "image_src": "./posters/movies/dragon.jpg"
+  },
+  {
+    "title": "How to train your dragon",
+    "description": "Live-action adaptation of the beloved animated movie. As good as the original with stunning visuals and heartfelt performances. A must watch for everyone.",
+    "rating": 8.5,
+    "year": 2025,
+    "image_src": "./posters/movies/httyd.jpg"
+  },
+  {
+    "title": "Superman",
+    "description": "A very bright and creative superman movie as always by James Gunn. Stunning visuals and David Corenswet's version is what superman stands for - hope, justice and truth. The film focuses more on saving people than just aura-farming. A must watch for superhero fans.",
+    "rating": 8.0,
+    "year": 2025,
+    "image_src": "./posters/movies/superman.jpg"
+  },
+  {
+    "title": "Jurassic World: Rebirth",
+    "description": "Not a very fresh take on the franchise but a decent addition. Good action sequences and decent performances. The story is predictable and lacks the thrill of the earlier movies. A decent watch for dinosaur fans.",
+    "rating": 7.5,
+    "year": 2025,
+    "image_src": "./posters/movies/jw-rebirth.jpg"
+  },
+  {
+    "title": "Heads of State",
+    "description": "An action-comedy with a good but predictable story. Good performances and some hilarious moments. A decent watch for action-comedy lovers.",
+    "rating": 7.5,
+    "year": 2025,
+    "image_src": "./posters/movies/heads-of-state.jpg"
+  },
+  {
+    "title": "The Fantastic Four: First Steps",
+    "description": "The highly anticipated debut of Marvel's First Family. It stood upto the hype with excellent storyline, breathtaking visuals and strong performances from the cast. The portrayal of the silver surfer and galactus is outstanding. A must watch for Marvel fans.",
+    "rating": 8.5,
+    "year": 2025,
+    "image_src": "./posters/movies/f4.jpg"
+  },
+  {
+    "title": "Coolie",
+    "description": "The movie didn't live up to the hype. The story is predictable and lacks the thrill of the earlier lokesh movies. But overall a decent watch with great BGM for action fans.",
+    "rating": 7.0,
+    "year": 2025,
+    "image_src": "./posters/movies/coolie.jpg"
+  },
+  {
+    "title": "VidaaMuyarchi",
+    "description": "An action-thriller which is a remake of the hollywood film Breakdown. Good performances and great BGM, but okay story. It's a one-time watch for me.",
+    "rating": 7.0,
+    "year": 2025,
+    "image_src": "./posters/movies/vidaamuyarchi.jpg"
+  },
+  {
+    "title": "Lilo & Stitch",
+    "description": "Live action remake of the classic Disney animated movie. Very cute and funny movie with great visuals. A must watch for kids as well as adults.",
+    "rating": 8.0,
+    "year": 2025,
+    "image_src": "./posters/movies/lilo&stitch.jpeg"
+  },
+  {
+    "title": "Su From So",
+    "description": "A very nicely written and directed movie. This is a story about how the protogonist makes a wrong he made by doing a right thing. A very good watch.",
+    "rating": 8.0,
+    "year": 2025, 
+    "image_src": "./posters/movies/su-from-so.jpg"
+  },
+  {
+    "title": "Saiyaara",
+    "description": "A musical romance which feels very modern yet a little like a mix of old movies. Good performance by the lead actress and wonderful music. The music carries the movie at times. A must watch for romance lovers.",
+    "rating": 7.5,
+    "year": 2025,
+    "image_src": "./posters/movies/saiyaara.jpg"
+  },
+  {
+    "title": "Sankranthiki Vasthunnam",
+    "description": "A solid comedic family entertaier. A classic Venkatesh film with a good mix of comedy, drama and action. A must watch for family audiences.",
+    "rating": 8.0,
+    "year": 2025,
+    "image_src": "./posters/movies/sv.jpg"
+  },
+  {
+    "title": "Metro In Dino",
+    "description": "A complex film about second chances in relatonships surrounding couples in different stages of their lives. Good performances but slow paced and not so convincing story. A one-time watch. I wouln'd recommend a second chance to watch this.",
+    "rating": 6.5,
+    "year": 2025,
+    "image_src": "./posters/movies/mid.jpg"
+  },
+  {
+    "title": "A Minecraft Movie",
+    "description": "An adaptation of minecraft game which looks literally quite good. But is ruined by bad VFX and poor storyline. A huge disappointment overall for general viewing. But if you love minecraft, you might really like it.",
+    "rating": 6.5,
+    "year": 2025,
+    "image_src": "./posters/movies/minecraft.png"
+  },
+  {
+    "title": "Kpop Demon Hunters",
+    "description": "It's really a fun ride. A perfect blend of action, comedy and music. The music is too good that saved all of them in my playlist. The lyrics have depth and well-woven into the story. A must watch for kpop and action lovers.",
+    "rating": 8.5,
+    "year": 2025,
+    "image_src": "./posters/movies/kpop-dh.jpg"
+  },
+  {
+    "title": "Chhaava",
+    "description": "A historical period drama film about sambhaji maharaj, son of shivaji maharaj and his fight against the mughal empire. Portrays the bravery of marathas and their undying warrior spirit to fight against all odds. Excellent performance by Vicky Kaushal. A must watch for everyone.",
+    "rating": 8.5,
+    "year": 2025,
+    "image_src": "./posters/movies/chhaava.jpg"
+  },
+  {
+    "title": "Lokah Chapter 1: Chandra",
+    "description": "A female centric film with a very good portrayal of Indian folklore with stunning visuals. Kalyani Priyadarsi's acting was phenomenal and a good start to the franchise. A must watch for superhero and mythology lovers.",
+    "rating": 8.0,
+    "year": 2025,
+    "image_src": "./posters/movies/lokah1.jpg"
+  },
+  {
+    "title": "War 2",
+    "description": "One of the worst executions of the franchise. Really ruined the legacy of war. Poor storyline, bad performances and some totally out-of-logic action sequences. A huge disappointment overall. Wouldn't recommend to watch it.",
+    "rating": 6.5,
+    "year": 2025,
+    "image_src": "./posters/movies/war2.jpg"
+  }
+]

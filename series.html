@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📺 Series Ratings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fs-4" href="series.html">
+    <img src="logo.png" alt="Rating Hub Logo" style="height: 35px; margin-right: 8px;">
+    Rating Hub
+</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="anime.html">Anime</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="series.html">Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="main-content container">
+        <header class="text-center mb-5">
+            <h1 class="display-4 text-warning">My Personal Series Scoreboard</h1>
+            <p class="lead text-secondary">Rating the best and worst of episodic television.</p>
+        </header>
+
+        <div class="row mb-5 justify-content-center">
+            <div class="col-lg-10 d-flex">
+                <input type="text" id="movie-search" class="form-control form-control-lg bg-secondary text-white border-0 me-3" placeholder="Search for a series title..." onkeyup="applyFilters()">
+                
+                <select id="status-filter" class="form-select bg-secondary text-white border-0 me-3" style="width: 200px;" onchange="applyFilters()">
+                    <option value="All">All</option>
+                    <option value="Ongoing">Ongoing</option>
+                    <option value="Completed">Completed</option>
+                </select>
+            </div>
+        </div>
+        
+        <div id="no-results-alert" class="alert text-center custom-alert" role="alert" style="display: none;">
+            <span style="font-size: 1.5rem; line-height: 1;">❌</span>
+            <strong class="text-dark">Oops! Series not found in your ratings list.</strong>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="content-list">
+            </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            &copy; 2025 Rating Hub | Created with <span class="text-danger">❤</span> and Bootstrap
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        let seriesData = []; // Global variable to store fetched data
+        const contentList = document.getElementById('content-list');
+        const noResultsAlert = document.getElementById('no-results-alert');
+        
+        // --- 1. FUNCTION TO FETCH DATA ---
+        async function fetchSeriesData() {
+            try {
+                // Fetch the data from the local JSON file
+                const response = await fetch('json_files/series_data.json'); 
+                if (!response.ok) {
+                    throw new Error('Failed to load series_data.json');
+                }
+                seriesData = await response.json();
+                renderContent(true); // Render and sort high-to-low by default on load
+            } catch (error) {
+                console.error("Error fetching data:", error);
+                
+                // Use the visually consistent card/movie-card style for the error.
+                contentList.innerHTML = `
+                    <div class="col-12">
+                        <div class="card movie-card p-4 text-center">
+                            <h4 class="text-warning mb-2">
+                                🚨 Could not load series list.
+                            </h4>
+                            <p class="text-secondary mb-0">Please check the JSON file path: <strong>series_data.json</strong></p>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
+        // --- 2. FUNCTION TO RENDER/SORT DATA (Modified) ---
+        function renderContent(shouldSort = false) {
+            let dataToRender = [...seriesData]; // Create a mutable copy of the original data
+
+            if (shouldSort) {
+                // Sort high to low by rating
+                dataToRender.sort((a, b) => b.rating - a.rating);
+            }
+
+            // Clear the existing content
+            contentList.innerHTML = '';
+
+            dataToRender.forEach(series => {
+                // Determine the button text/color based on status
+                const statusClass = series.status === 'Ongoing' ? 'btn-warning' : 'btn-success';
+                const statusText = series.status === 'Ongoing' ? 'Ongoing' : 'Completed';
+
+                const blockHTML = `
+                    <div class="col content-block" data-status="${series.status}">
+                        <div class="card movie-card h-100">
+                            <div class="movie-poster-container">
+                                <img src="${series.image_src}" class="card-img-top" alt="Series Poster: ${series.title}">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title text-warning">${series.title}</h5>
+                                <p class="card-text text-secondary mb-3">${series.description}</p>
+                                <div class="mt-auto d-flex justify-content-between align-items-center">
+                                    <span class="rating-badge" data-rating="${series.rating.toFixed(1)}">${series.rating.toFixed(1)} / 10</span>
+                                    
+                                    <button class="btn ${statusClass} status-indicator">${statusText}</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                contentList.insertAdjacentHTML('beforeend', blockHTML);
+            });
+            
+            // Apply filters immediately after rendering (if filter is set)
+            applyFilters();
+        }
+
+        // --- 3. COMBINED FILTERING FUNCTION (Modified) ---
+        function applyFilters() {
+            const searchInput = document.getElementById('movie-search').value.toLowerCase().trim();
+            const statusFilterValue = document.getElementById('status-filter').value;
+            const contentBlocks = document.querySelectorAll('.content-block');
+            let foundCount = 0;
+
+            contentBlocks.forEach(block => {
+                const title = block.querySelector('.card-title').textContent.toLowerCase();
+                const status = block.getAttribute('data-status');
+                
+                // 1. Check Search Filter
+                const searchMatch = title.includes(searchInput);
+
+                // 2. Check Status Filter
+                const statusMatch = (statusFilterValue === 'All' || status === statusFilterValue);
+
+                // 3. Apply Visibility
+                if (searchMatch && statusMatch) {
+                    block.style.display = 'block';
+                    foundCount++;
+                } else {
+                    block.style.display = 'none';
+                }
+            });
+
+            // Show or hide the no-results message
+            if (foundCount === 0 && (searchInput.length > 0 || statusFilterValue !== 'All')) {
+                noResultsAlert.style.display = 'flex';
+            } else {
+                noResultsAlert.style.display = 'none';
+            }
+        }
+
+
+        // --- 4. INITIALIZE ---
+        // Fetch data when the page loads
+        document.addEventListener('DOMContentLoaded', fetchSeriesData);
+    </script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+[
+  {
+    "title": "Attack on Titan",
+    "description": "Masterpiece of action and psychological warfare.  would say this is as near as a fictional story can show how the real world works and what war actually is. Is quite emotional and heart-wrenching at times but overall a must-watch for everyone.",
+    "rating": 10.0,
+    "image_src": "./posters/animes/aot.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "One Piece",
+    "description": "The greatest adventure story ever told and I am not exaggerating. It might look incredibly long, but once you start it won't be enough. The characters are well-developed and the world-building is unmatched. There's nothing more to say than that you won't regret it. Must watch for life.",
+    "rating": 9.5,
+    "image_src": "./posters/animes/one-piece.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Mob Psycho 100",
+    "description": "I personally feel it is very refreshing to watch. The animation style is unique and the story is heartfelt. It points on about the importance of showing emotions instead of hiding away near our loved ones.",
+    "rating": 9.0,
+    "image_src": "./posters/animes/mob-psycho.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Demon Slayer",
+    "description": "The best-animated anime out there with breathtaking fight scenes and a touching story about family bonds. Shows the importance of being kind and just.Highly recommend watching it in 4K.",
+    "rating": 9.5,
+    "image_src": "./posters/animes/demon-slayer.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Jujutsu Kaisen",
+    "description": "A treat for peak action lovers with stunning animation and well-choreographed fight scenes. The characters are relatable and the story keeps you hooked. But it can get very emotional at times though.",
+    "rating": 8.5,
+    "image_src": "./posters/animes/jjk.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "I Want to Eat Your Pancreas",
+    "description": "An emotional rollercoaster that explores the themes of life and death through the relationship between two high school students. Beautifully animated with a touching story that will leave a lasting impact.",
+    "rating": 8.5,
+    "image_src": "./posters/animes/pancreas.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Fire Force",
+    "description": "A unique take on the shonen genre with a focus on firefighting and supernatural elements. The story is engaging fresh. Antagonists are well-developed I would say. But fanservice can be a bit much at times.",
+    "rating": 8.5,
+    "image_src": "./posters/animes/fire-force.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Solo Leveling",
+    "description": "You want to see an anime just for the aura of the over-powered main character, then this is your first go to anime. It has a lot of cliffhangers though. The animation is top-notch but pacing can be slow at times.",
+    "rating": 8.0,
+    "image_src": "./posters/animes/solo-leveling.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Vinland Saga",
+    "description": "This is one more brutal yet realstic anime out there. The story is based on historical events and the characters are well-developed. The animation is top-notch and the fight scenes are intense. Highly recommend for those who love action and history.",
+    "rating": 8.5,
+    "image_src": "./posters/animes/vinland-saga.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Death Note",
+    "description": "A psychologcal thriller that delves into the mind of a high school student who gains the power to kill anyone by writing their name in a supernatural notebook. The cat-and-mouse game between the protagonist and the detective trying to catch him is intense and thought-provoking.",
+    "rating": 8.5,
+    "image_src": "./posters/animes/death-note.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Dandadan",
+    "description": "An unpredictable and thrilling anime that combines elements of supernatural, action, and comedy. I would defintely recommend it to anyone looking for a unique and entertaining watch.",
+    "rating": 8.0,
+    "image_src": "./posters/animes/dandadan.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Spy x Family",
+    "description": "A very cheerful and heartwarming anime about a spy who has to create a fake family for a mission, only to find out that his wife is an assassin and his daughter has telepathic abilities. The story is filled with humor, action, and touching moments that highlight the importance of family bonds.",
+    "rating": 8.0,
+    "image_src": "./posters/animes/spyxfamily.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Dr.Stone",
+    "description": "A unique blend of science and adventure that follows a group of teenagers who are trying to rebuild civilization after a mysterious event turns all of humanity into stone. The story is educational and entertaining, focusing on problem-solving and innovation.",
+    "rating": 8.0,
+    "image_src": "./posters/animes/drstone.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Lycoris Recoil",
+    "description": "It is a very refreshing take on the action genre with a focus on female protagonists. Go for this if you like acton and slice of life mix.",
+    "rating": 8.0,
+    "image_src": "./posters/animes/lycoris-recoil.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Sakamoto Days",
+    "description": "An action, comedy anime that follows the life of a former legendary hitman who has retired to live a peaceful life. It sometimes feels lacking in depth but overall a fun watch.",
+    "rating": 8.0,
+    "image_src": "./posters/animes/sakamoto-days.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Kaiju No. 8",
+    "description": "A very unique and interesting anime that combines elements of supernatural, action, and comedy. I would defintely recommend it to anyone looking for a unique and entertaining watch. One of the best kaiju animes out there.",
+    "rating": 7.5,
+    "image_src": "./posters/animes/Kaiju-No-8.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Charlotte",
+    "description": "This a very interesting and unexpectedly good anime about teenagers with supernatural abilities. The story is emotional and thought-provoking, exploring themes of friendship, sacrifice, and the consequences of power. Could have been better with a bit more elaborate ending though.",
+    "rating": 8.0,
+    "image_src": "./posters/animes/Charlotte.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "My Hero Academia",
+    "description": "A great superhero anime that explores the journey of a young boy without powers in a world where they are the norm. The story is filled with action, character development, and themes of heroism and friendship. Highly recommend if you are a fan of this genre.",
+    "rating": 8.5,
+    "image_src": "./posters/animes/mha.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Mashle: Magic and Muscles",
+    "description": "A parody of harry potter with a lot of comedy and action. If you are looking for something light-hearted and funny, this is the anime for you.",
+    "rating": 7.5,
+    "image_src": "./posters/animes/mashle.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "One Punch Man",
+    "description": "Nothing to say, the title says it all. A superhero satire that follows the story of Saitama, a hero who can defeat any opponent with a single punch. Very good anime ruined by bad animation. If you read manga, I would recommend to read manga instead.",
+    "rating": 7.5,
+    "image_src": "./posters/animes/opm.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Parasyte: The Maxim",
+    "description": "A dark sci-fi horror anime that explores the relationship between humans and parasitic aliens that take over their bodies. The story delves into themes of identity, morality, and survival. Highly recommend for those who enjoy intense narratives.",
+    "rating": 7.5,
+    "image_src": "./posters/animes/parasyte.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Classroom of the Elite",
+    "description": "It's about a genius boy who gets into a prestigious high school where students are ranked based on their academic performance and social status. The story explores themes of competition, manipulation, and the dark side of human nature. A very interesting and thought-provoking anime. Good watch I would say!",
+    "rating": 8.0,
+    "image_src": "./posters/animes/classroom-of-the-elite.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Shangri-La Frontier",
+    "description": "A video game anime that is different from others. The animation is good and the story is interesting. If you are a gamer, I think you will definitely enjoy this anime.",
+    "rating": 7.5,
+    "image_src": "./posters/animes/shangri-la-frontier.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "My Hero Academia: Vigilantes",
+    "description": "This is a prequel to My Hero Academia that focuses on the lives of vigilantes in a world where superheroes exist. The story explores themes of justice, heroism, and the consequences of taking the law into one's own hands. A must-watch for fans of the My Hero Academia universe.",
+    "rating": 7.5,
+    "image_src": "./posters/animes/mha-vigilantes.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Blue Lock",
+    "description": "A very intense anime about soccer with a unique premise. The anime explores themes of competition, ambition, and the pursuit of greatness. The animation was too good in the first season but fell out in the second season. Still a good watch for sports anime lovers.",
+    "rating": 7.5,
+    "image_src": "./posters/animes/blue-lock.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Pokemon",
+    "description": "What's there to say? It's a classic. A nostalgic journey that has captivated audiences for decades. I would recommend skipping some of the fillers and arcs in between. X,Y,Z and Sun & Moon are the best arcs in my opinion. It was a good experience as a child to watch this anime.",
+    "rating": 7.5,
+    "image_src": "./posters/animes/pokemon.jpeg",
+    "status": "Completed"
+  },
+  {
+    "title": "Wind Breaker",
+    "description": "A very good fighting anime with a focus on street racing and gang conflicts. The story is engaging and the character development is very good. I highly recommend it if you like street fighting and gang conflicts.",
+    "rating": 8.0,
+    "image_src": "./posters/animes/wind-breaker.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Chainsaw Man",
+    "description": "A crazy and dark anime about devils and demon hunters. The story is unpredictable and filled with intense action scenes. But too much fanservice though. Recommended for those who enjoy dark fantasy.",
+    "rating": 7.5,
+    "image_src": "./posters/animes/chainsaw-man.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "The Reincarnation of the Strongest Exorcist in Another World",
+    "description": "A typical isekai anime with a focus on exorcism and supernatural elements with overpowered main character. But is a decent watch in my opinion.",
+    "rating": 7.0,
+    "image_src": "./posters/animes/the-reincarnation-of-the-strongest-exorcist.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Berserk of Gluttony",
+    "description": "A very slow paced isekai anime with an overpowered main character. The animation is decent but nothing extraordinary. Would recommend only to watch for time pass.",
+    "rating": 6.5,
+    "image_src": "./posters/animes/berserk-of-gluttony.jpg",
+    "status": "Completed"
+  },
+  {
+    "title": "Re: Zero Starting Life in Another World",
+    "description": "A very good isekai. The pacing is very slow at starting but picks up by the end of the first season. The story is dark and emotional, exploring themes of despair, hope, and the consequences of one's actions. Highly recommend for fans of isekai and fantasy genres.",
+    "rating": 7.5,
+    "image_src": "./posters/animes/re-zero.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "The Beginning After the End",
+    "description": "A decent isekai anime with a focus on fantasy and adventure. The story follows a powerful king who is reincarnated into a new world and must navigate the challenges of his new life. The animation is not so good but the character development is solid. Some scenes are not true to manga and lack the essence of it. Better to read manga in my opinion.",
+    "rating": 7.0,
+    "image_src": "./posters/animes/beginning-after-the-end.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Gachiakuta",
+    "description": "A different kind of anime focusing on importance of fixing broken things. A very good story development and world building with top notch animation. Great anime to watch. Highly recommended by me.",
+    "rating": 8.5,
+    "image_src": "./posters/animes/gachiakuta.jpg",
+    "status": "Ongoing"
+  },
+  {
+    "title": "Terror in Resonance",
+    "description": "An anime about how the impact of tortured souls can affect the society around them. A very deep and thought-provoking anime with a good storyline and character development. The animation is decent and the soundtrack is amazing. Definitely a must-watch for those who enjoy psychological thrillers.",
+    "rating": 7.5,
+    "image_src": "./posters/animes/terror-in-resonance.jpg",
+    "status": "Ongoing"
+  }
+
+]
