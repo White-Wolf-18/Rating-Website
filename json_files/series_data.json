@@ -120,189 +120,189 @@
   },
   {
     "title": "The Boys",
-    "description": "I",
+    "description": "One of the most brutal and dark superhero series out there. It offers a unique take on how superheroes would likely be in the real world, with a focus on corruption and abuse of power. A must-watch for those who enjoy a more mature and gritty take on the superhero genre!",
     "rating": 8.5,
     "image_src": "./posters/series/boys.jpg",
     "status": "Ongoing"
   },
   {
     "title": "Gen V",
-    "description": "I",
+    "description": "A side story in the boys universe focusing on the younger generation of superheroes. It has a fresh perspective and explores themes of youth, identity, and power dynamics within the superhero community. While it may not have the same intensity as the main series, it offers an interesting take on the world of superheroes.",
     "rating": 7.5,
     "image_src": "./posters/series/genv.jpg",
     "status": "Completed"
   },
   {
     "title": "Marvel Zombies",
-    "description": "I",
+    "description": "One of the best animated series marvel has released with dark and gritty take on the MCU being overrun by zombies. Action sequeces are well versed but the storyline might have been better. Overall a good watch.",
     "rating": 8.0,
     "image_src": "./posters/series/marvel-zombies.jpg",
     "status": "Ongoing"
   },
   {
     "title": "Peacemaker",
-    "description": "I",
+    "description": "A very good antihero series with a perfect blend of action and humor. John Cena delivers a standout performance as Peacemaker, bringing depth and complexity to the character. The show effectively explores themes of redemption and morality while keeping the audience entertained with its witty dialogue and thrilling action sequences. A must-watch for fans of superhero shows looking for something different!",
     "rating": 8.0,
     "image_src": "./posters/series/peacemaker.jpg",
     "status": "Completed"
   },
   {
     "title": "Money Heist",
-    "description": "I",
+    "description": "One of the best heist series ever made. The plot is thrilling, the characters are well-developed, and the suspense keeps you on the edge of your seat. A must-watch for anyone who loves a good crime drama!",
     "rating": 9.5,
     "image_src": "./posters/series/money-heist.jpg",
     "status": "Completed"
   },
   {
     "title": "Dark",
-    "description": "I",
+    "description": "It would not be exaggerating to say this is the best sci-fi series ever made. The storyline is complex and mind-bending, the characters are multi-dimensional, and the atmosphere is very captivating. A must-watch for anyone who loves a good sci-fi thriller!",
     "rating": 8.5,
     "image_src": "./posters/series/dark.jpg",
     "status": "Completed"
   },
   {
     "title": "WandaVision",
-    "description": "I",
+    "description": "Very good addition to the MCU. The show effectively blends classic sitcom elements with superhero action, creating engaging viewing experience. Elizabeth Olsen delivers a standout performance as Wanda showing her character's emotional depth and complexity. Initially might be a bit boring but overall, a must-watch for Marvel fans!",
     "rating": 8.0,
     "image_src": "./posters/series/wandavision.png",
     "status": "Completed"
   },
   {
     "title": "I am Groot",
-    "description": "I",
+    "description": "A very cute short series focusing on the adventures of baby groot. Good for a light watch.",
     "rating": 7.0,
     "image_src": "./posters/series/I-am-groot.jpg",
     "status": "Completed"
   },
   {
     "title": "Lucifer",
-    "description": "I",
+    "description": "Well versed take on the devil living among humans. Characters are well-developed and the humor adds a unique charm to the show. It as one of the best endings I have come across. A must-watch for anyone who enjoys a good mix of crime drama and supernatural elements!",
     "rating": 8.5,
     "image_src": "./posters/series/lucifer.jpg",
     "status": "Completed"
   },
   {
     "title": "House of the Dragon",
-    "description": "I",
+    "description": "A prequel to Game of Thrones, this series delves into the history of House Targaryen. It offers a rich narrative filled with political intrigue, dragons, and complex characters. A must-watch for fans of fantasy and epic storytelling!",
     "rating": 8.5,
     "image_src": "./posters/series/hotd.jpg",
     "status": "Ongoing"
   },
   {
     "title": "What If...?",
-    "description": "I",
+    "description": "A good animated series exploring alternate realities in the Marvel universe. Each episode presents a unique scenario that diverges from the main MCU storyline, offering fresh perspectives on familiar characters. It's an enjoyable watch for Marvel fans looking for something different.",
     "rating": 7.0,
     "image_src": "./posters/series/what-if.jpg",
     "status": "Completed"
   },
   {
     "title": "Suzhal: The Vortex",
-    "description": "I",
+    "description": "A gripping Indian crime thriller that delves into the dark secrets of a small town. Good storyline with strong performances, and atmospheric setting. A must-watch for fans of mystery and suspense.",
     "rating": 7.5,
     "image_src": "./posters/series/suzhal.jpg",
     "status": "Completed"
   },
   {
     "title": "The Last of Us",
-    "description": "I",
+    "description": "An emotional and gripping thriller set in a post-apocalyptic world with zombie outbreak. A really good watch.",
     "rating": 7.5,
     "image_src": "./posters/series/last-of-us.jpg",
     "status": "Ongoing"
   },
   {
     "title": "All of Us Are Dead",
-    "description": "I",
+    "description": "Survival story of high school students during a zombie outbreak. A really good watch with decent character development and plot.",
     "rating": 8.0,
     "image_src": "./posters/series/all-of-us-r-dead.jpg",
     "status": "Ongoing"
   },
   {
     "title": "Wednesday",
-    "description": "I",
+    "description": "A very unique, spooky and fresh series focusing on Wednesday Addams. The main character's dark humor adds a unique charm to the show. A must-watch for fans of mystery and supernatural elements!",
     "rating": 8.0,
     "image_src": "./posters/series/wednesday.jpg",
     "status": "Ongoing"
   },
   {
     "title": "Sex Education",
-    "description": "I",
+    "description": "The series follows the lives of teenagers, their struggles with relationships, identity, and sexuality. The characters are well-developed, and the show tackles important topics with sensitivity and humor. A good watch!",
     "rating": 7.0,
     "image_src": "./posters/series/sex-education.jpg",
     "status": "Completed"
   },
   {
     "title": "Alice in Borderland",
-    "description": "I",
+    "description": "Very good and engaging survival game series with decent plot and character development. Games are more brutal and intense compared to other survival game series. Must watch if you loved series like squid game.",
     "rating": 8.5,
     "image_src": "./posters/series/alice-in-borderland.webp",
     "status": "Completed"
   },
   {
     "title": "The Falcon And The Winter Soldier",
-    "description": "I",
+    "description": "A good addition to the MCU and does a great job at introducing Sam Wilson as the new Captain America. The character development is well done. However, the plot can be a bit predictable at times. Overall, a solid watch.",
     "rating": 7.5,
     "image_src": "./posters/series/falcon-ws.jpg",
     "status": "Completed"
   },
   {
     "title": "Secret Invasion",
-    "description": "I",
+    "description": "One of the downfalls of the MCU. The plot is slow and lacks excitement, and the character development is weak. It fails to live up to the expectations set by previous series. Overall, a disappointing watch.",
     "rating": 6.0,
     "image_src": "./posters/series/secret-invasion.jpg",
     "status": "Completed"
   },
   {
     "title": "3 Body Problem",
-    "description": "I",
+    "description": "A very good sci-fi thriller with eery visuals and a gripping storyline with extraterrestal characters. The adaptation of the novel is well done, capturing the essence of the story while adding its own unique elements. A must-watch for sci-fi enthusiasts!",
     "rating": 8.0,
     "image_src": "./posters/series/3bodyproblem.jpg",
     "status": "Ongoing"
   },
   {
     "title": "Fallout",
-    "description": "I",
+    "description": "A decent and enjoyable series. The post-apocalyptic setting is well portrayed, and the character development is solid. However, the pacing can be uneven at times, and some plot points feel underdeveloped. Overall, a good watch for fans of the game and the genre.",
     "rating": 8.0,
     "image_src": "./posters/series/fallout.jpg",
     "status": "Ongoing"
   },
   {
     "title": "Superman & Lois",
-    "description": "I",
+    "description": "The best superman series in my opinion. The storyline is good and the visual effects are impressive. But it might feel a bit dragged at times. A good watch overall for any superhero fan!",
     "rating": 7.5,
     "image_src": "./posters/series/superman&Lois.jpg",
     "status": "Completed"
   },
   {
     "title": "Friends",
-    "description": "I",
+    "description": "The best sitcom ever made. The humor is timeless, the characters are lovable, and the chemistry among the cast is excellent. It has a perfect blend of comedy, romance, and friendship. I can't say much in words, just go and watch it!!!",
     "rating": 10.0,
     "image_src": "./posters/series/friends.jpg",
     "status": "Completed"
   },
   {
     "title": "X-Men '97",
-    "description": "I",
+    "description": "A great animated series that continues the legacy of the original x-men series. The animation is great and the visuals are stunning. A must-watch for fans of the genre!",
     "rating": 8.0,
     "image_src": "./posters/series/xmen-97.jpg",
     "status": "Ongoing"
   },
   {
     "title": "Citadel",
-    "description": "I",
+    "description": "A spy thriller series with decent action sequences and plot. But lacks strong character development and engaging storyline. Overall, an average watch.",
     "rating": 7.0,
     "image_src": "./posters/series/citadel.jpg",
     "status": "Ongoing"
   },
   {
     "title": "Squid Game",
-    "description": "I",
+    "description": "A good and different take on the survival game genre. The visuals are good but the storyline could have been a lot better. Still it's a good watch judged with just season 1 alone.",
     "rating": 8.0,
     "image_src": "./posters/series/squid-game.jpg",
     "status": "Completed"
   },
   {
     "title": "The 8 Show",
-    "description": "I",
+    "description": "A psychological thriller in the mask of a tv show with a unique concept and engaging storyline. The show gets better as it goes but maybe a bit slow for the first half of the season. Overall, a good watch.",
     "rating": 7.5,
     "image_src": "./posters/series/8show.jpg",
     "status": "Completed"

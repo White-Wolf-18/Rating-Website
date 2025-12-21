@@ -58,7 +58,7 @@
   {
     "title": "Thunderbolts*",
     "description": "A very different kind of superhero movie focusing on anti-heroes. Good action sequences, comedy and decent performances by the cast. The story is a bit weak and predictable. Overall a decent watch for MCU fans.",
-    "rating": 9.0,
+    "rating": 8.5,
     "year": 2025,
     "image_src": "./posters/movies/thunderbolts.jpg"
   },
@@ -79,7 +79,7 @@
   {
     "title": "Game Changer",
     "description": "Really a game changer for Shankar. One of the worst and most boring movies of the year. Poor screenplay, weak story and okay performances. A huge disappointment overall.",
-    "rating": 6.0,
+    "rating": 5.5,
     "year": 2025,
     "image_src": "./posters/movies/game-changer.jpg"
   },
@@ -156,21 +156,21 @@
   {
     "title": "Saiyaara",
     "description": "A musical romance which feels very modern yet a little like a mix of old movies. Good performance by the lead actress and wonderful music. The music carries the movie at times. A must watch for romance lovers.",
-    "rating": 7.5,
+    "rating": 8.0,
     "year": 2025,
     "image_src": "./posters/movies/saiyaara.jpg"
   },
   {
     "title": "Sankranthiki Vasthunnam",
     "description": "A solid comedic family entertaier. A classic Venkatesh film with a good mix of comedy, drama and action. A must watch for family audiences.",
-    "rating": 8.0,
+    "rating": 7.5,
     "year": 2025,
     "image_src": "./posters/movies/sv.jpg"
   },
   {
     "title": "Metro In Dino",
     "description": "A complex film about second chances in relatonships surrounding couples in different stages of their lives. Good performances but slow paced and not so convincing story. A one-time watch. I wouln'd recommend a second chance to watch this.",
-    "rating": 6.5,
+    "rating": 7.0,
     "year": 2025,
     "image_src": "./posters/movies/mid.jpg"
   },
@@ -208,5 +208,12 @@
     "rating": 6.5,
     "year": 2025,
     "image_src": "./posters/movies/war2.jpg"
+  },
+  {
+    "title": "Avatar: Fire and Ash",
+    "description": "The best film in the franchise in my opinion. Stunning visuals and breathtaking action sequences. Feels once again like a movie from the future. A must watch for everyone.",
+    "rating": 9.0,
+    "year": 2025,
+    "image_src": "./posters/movies/avatar3.jpg"
   }
 ]
