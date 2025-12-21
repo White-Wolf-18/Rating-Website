@@ -177,4 +177,24 @@ body {
     justify-content: center !important;
 }
 
-/* ... rest of your style.css ... */
+/* Container must be relative for the absolute badge to position correctly */
+.movie-poster-container {
+    position: relative;
+}
+
+/* The Episode Badge Styling */
+.episode-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent dark background */
+    color: var(--primary-color); /* Your theme's gold/yellow */
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    z-index: 5;
+    border: 1px solid var(--primary-color);
+    backdrop-filter: blur(4px); /* Modern frosted-glass effect */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
