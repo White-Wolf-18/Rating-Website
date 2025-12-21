@@ -49,7 +49,8 @@ Movie-Rating-Website/
       "rating": 9.5,
       "image_src": "link-to-poster.jpg",
       "year": 2024,
-      "status": "Completed"
+      "status": "Completed",
+      "episodes": 10
    }
     ```
 Run the site: Simply open index.html in your browser.
