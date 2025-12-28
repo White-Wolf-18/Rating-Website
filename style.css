@@ -376,4 +376,56 @@ body {
     }
 }
 
+/* --- STABLE CARD LAYOUT --- */
+.movie-card {
+    position: relative;
+    overflow: visible !important;
+    background-color: #343a40;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensures all cards in a row are the same height */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Fills the card area */
+}
+
+.movie-description {
+    font-size: 0.85rem;
+    color: #a6adb4;
+    margin-bottom: 15px;
+    flex-grow: 1; /* CRITICAL: Pushes the badges to the bottom */
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.4em;
+}
+
+
+
+/* --- BADGE & BUTTON STYLING --- */
+.rating-badge, .status-indicator {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    min-height: 38px;
+    padding: 6px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    border: none;
+}
+
+/* --- MODAL STYLE --- */
+.modal-content {
+    border: 2px solid #ffc107;
+    border-radius: 15px;
+}
 
