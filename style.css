@@ -429,3 +429,25 @@ body {
     border-radius: 15px;
 }
 
+/* --- ABOUT PAGE FIXES --- */
+
+/* Disables fixed heights so cards wrap around text tightly */
+.about-page-content .movie-card {
+    height: auto !important;
+    min-height: unset !important;
+    display: block !important; /* Disables flex pinning */
+    margin-bottom: 20px;
+}
+
+/* Fixes hover effect for text-only cards */
+.about-page-content .movie-card:hover {
+    transform: translateY(-5px) scale(1) !important; /* Professional lift */
+    box-shadow: 0 10px 25px rgba(255, 193, 7, 0.4) !important;
+}
+
+/* Ensure descriptions don't have forced height on this page */
+.about-page-content .movie-description {
+    height: auto !important;
+    display: block !important;
+    -webkit-line-clamp: unset !important;
+}

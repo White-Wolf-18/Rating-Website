@@ -13,7 +13,9 @@
             <a class="navbar-brand fs-4" href="anime.html">
                 <img src="logo.png" alt="Logo" style="height: 35px;"> Rating Hub
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Movies</a></li>
@@ -32,17 +34,28 @@
         </header>
 
         <div class="row mb-4 justify-content-center">
-            <div class="col-lg-8 d-flex">
-                <input type="text" id="movie-search" class="form-control bg-secondary text-white border-0 me-2" placeholder="Search..." onkeyup="applyFilters()">
+            <div class="col-lg-10 d-flex flex-wrap gap-2 justify-content-center">
+                <input type="text" id="movie-search" class="form-control bg-secondary text-white border-0" style="max-width: 400px;" placeholder="Search..." onkeyup="applyFilters()">
+                
                 <select id="status-filter" class="form-select bg-secondary text-white border-0" style="width: 150px;" onchange="applyFilters()">
-                    <option value="All">All</option>
+                    <option value="All">All Status</option>
                     <option value="Ongoing">Ongoing</option>
                     <option value="Completed">Completed</option>
+                </select>
+
+                <select id="episode-filter" class="form-select bg-secondary text-white border-0" style="width: 180px;" onchange="applyFilters()">
+                    <option value="All">All Episodes</option>
+                    <option value="under10">&lt; 10 EP</option>
+                    <option value="under30">&lt; 30 EP</option>
+                    <option value="under100">&lt; 100 EP</option>
+                    <option value="over100">&gt; 100 EP</option>
                 </select>
             </div>
         </div>
         
-        <div id="no-results-alert" class="alert text-center custom-alert" style="display: none;"><strong class="text-dark">❌ No anime found.</strong></div>
+        <div id="no-results-alert" class="alert text-center custom-alert" style="display: none;">
+            <strong class="text-dark">❌ No anime found.</strong>
+        </div>
         <div class="row g-2 g-md-4" id="content-list"></div>
     </div>
 
@@ -54,15 +67,15 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-4">
-                    <div class="row">
+                    <div class="row h-100">
                         <div class="col-md-5 mb-3 mb-md-0 text-center">
                             <img id="modalImage" src="" class="img-fluid rounded shadow-lg border border-secondary" alt="Poster">
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-7 d-flex flex-column">
                             <h6 class="text-warning text-uppercase small fw-bold mb-2">Synopsis</h6>
-                            <p id="modalDescription" class="text-light" style="line-height: 1.6; font-size: 0.95rem;"></p>
+                            <p id="modalDescription" class="text-light flex-grow-1" style="line-height: 1.6; font-size: 0.95rem;"></p>
                             <hr class="border-secondary my-4">
-                            <div class="d-flex justify-content-between align-items-center">
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
                                 <div id="modalRating"></div>
                                 <div id="modalExtra"></div>
                             </div>
@@ -73,7 +86,7 @@
         </div>
     </div>
     
-    <footer class="footer"><div class="container">&copy; 2025 Rating Hub</div></footer>
+    <footer class="footer"><div class="container">&copy; 2025 Rating Hub | Created with <span class="text-danger">❤</span> and Bootstrap</div></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
@@ -95,12 +108,13 @@
             const sClass = item.status === 'Ongoing' ? 'btn-warning' : 'btn-success';
             const statusText = item.status || `📅 ${item.year}`;
             const indicatorClass = item.status ? sClass : 'btn-warning';
+            const epCount = item.episodes || 0; 
 
             const epBadge = (item.episodes) 
                 ? `<div class="episode-badge">${item.episodes} EP</div>` : '';
 
             const html = `
-                <div class="col-6 col-md-4 col-lg-3 content-block" data-status="${item.status || ''}">
+                <div class="col-6 col-md-4 col-lg-3 content-block" data-status="${item.status || ''}" data-episodes="${epCount}">
                     <div class="card movie-card h-100" onclick="openModal(${index})" style="cursor: pointer;">
                         <div class="movie-poster-container">
                             ${epBadge}
@@ -132,7 +146,7 @@
         
         const extraClass = item.status === 'Ongoing' ? 'btn-warning' : 'btn-success';
         document.getElementById('modalExtra').innerHTML = `
-            <span class="status-indicator ${extraClass} py-2 px-3 fs-6" style="border-radius: 6px;">
+            <span class="status-indicator modal-dynamic-btn ${extraClass} py-2 px-3 fs-6">
                 ${item.status} ${item.episodes ? '(' + item.episodes + ' EP)' : ''}
             </span>`;
 
@@ -143,14 +157,39 @@
     function applyFilters() {
         const search = document.getElementById('movie-search').value.toLowerCase();
         const stat = document.getElementById('status-filter').value;
+        const epRange = document.getElementById('episode-filter').value;
         const blocks = document.querySelectorAll('.content-block');
         let count = 0;
+
         blocks.forEach(b => {
-            const match = b.querySelector('.card-title').textContent.toLowerCase().includes(search) &&
-                          (stat === 'All' || b.getAttribute('data-status') === stat);
-            b.style.display = match ? 'block' : 'none';
-            if(match) count++;
+            const title = b.querySelector('.card-title').textContent.toLowerCase();
+            const status = b.getAttribute('data-status');
+            const episodes = parseInt(b.getAttribute('data-episodes')) || 0;
+
+            const searchMatch = title.includes(search);
+            const statusMatch = (stat === 'All' || status === stat);
+
+            let epMatch = false;
+            if (epRange === 'All') {
+                epMatch = true;
+            } else if (epRange === 'under10') {
+                epMatch = episodes < 10;
+            } else if (epRange === 'under30') {
+                epMatch = episodes < 30;
+            } else if (epRange === 'under100') {
+                epMatch = episodes < 100;
+            } else if (epRange === 'over100') {
+                epMatch = episodes >= 100;
+            }
+
+            if (searchMatch && statusMatch && epMatch) {
+                b.style.display = 'block';
+                count++;
+            } else {
+                b.style.display = 'none';
+            }
         });
+
         document.getElementById('no-results-alert').style.display = count === 0 ? 'flex' : 'none';
     }
     document.addEventListener('DOMContentLoaded', fetchAnimeData);
