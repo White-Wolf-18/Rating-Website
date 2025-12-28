@@ -215,5 +215,12 @@
     "rating": 9.0,
     "year": 2025,
     "image_src": "./posters/movies/avatar3.jpg"
+  },
+  {
+    "title": "Zootopia 2",
+    "description": "A good follow up to the first movie. The story is engaging and has a good message about acceptance and diversity. The animation is top-notch followed by good comedic scenes. A really good watch.",
+    "rating": 8.0,
+    "year": 2025,
+    "image_src": "./posters/movies/zootopia2.jpg"
   }
 ]
