@@ -52,7 +52,7 @@
     "description": "The best series ever! The storyline is captivating, the characters are well-developed, and the 80s nostalgia is on point. The suspense and supernatural elements keep you hooked from start to finish. A must-watch for everyone!",
     "rating": 9.5,
     "image_src": "./posters/series/stranger-things.jpg",
-    "status": "Ongoing",
+    "status": "Completed",
     "episodes": 42
   },
   {
@@ -130,7 +130,7 @@
   {
     "title": "Loki",
     "description": "The top MCU series till date. Tom Hiddleston delivers a captivating performance as Loki, bringing depth and complexity to the character. The storyline is intriguing, filled with twists and turns that keep you hooked. The exploration of the multiverse adds an exciting dimension to the Marvel universe. Overall, a must-watch for any Marvel fan!",
-    "rating": 9.0,
+    "rating": 8.5,
     "image_src": "./posters/series/loki.jpg",
     "status": "Completed",
     "episodes": 12
@@ -301,7 +301,7 @@
     "rating": 8.0,
     "image_src": "./posters/series/fallout.jpg",
     "status": "Ongoing",
-    "episodes": 8
+    "episodes": 16
   },
   {
     "title": "Superman & Lois",
@@ -429,14 +429,30 @@
     "rating": 8.0,
     "image_src": "./posters/series/percy-jackson.jpg",
     "status": "Ongoing",
-    "episodes": 8
+    "episodes": 16
   },
   {
     "title": "When Life Gives You Tangerines",
-    "description": "One of the best series I have ever watched. It is a beautiful portrayal of life, love, character and selfrespect. Really shows how truly you can love someone no matter what the life throws at you. The story progression is a bit slow, but trust me it's really worth it!!.",
+    "description": "One of the best series I have watched. It is a beautiful portrayal of life, love, character and selfrespect. Really shows how truly you can love someone no matter what the life throws at you. The story progression is a bit slow, but trust me it's really worth it!!.",
     "rating": 9.0,
     "image_src": "./posters/series/wlgut.jpg",
     "status": "Completed",
     "episodes": 16
+  },
+  {
+    "title": "A Knight Of the Seven Kingdoms",
+    "description": "A good addition to the game of thrones universe. This has a different sense of adventure to it. A good watch!",
+    "rating": 8.5,
+    "image_src": "./posters/series/a-knight-of-the-seven-kingdoms.jpg",
+    "status": "Ongoing",
+    "episodes": 6
+  },
+  {
+    "title": "Wonder Man",
+    "description": "A unique and entertaining series that blends superhero elements with a touch of humor. The character development is strong and the story is engaging. A good watch for fans of superhero and comedy genres.",
+    "rating": 7.5,
+    "image_src": "./posters/series/wonder-man.jpg",
+    "status": "Ongoing",
+    "episodes": 8
   }
 ]

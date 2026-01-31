@@ -37,7 +37,7 @@
     "rating": 8.5,
     "image_src": "./posters/animes/jjk.jpg",
     "status": "Ongoing",
-    "episodes": 47
+    "episodes": 60
   },
   {
     "title": "I Want to Eat Your Pancreas",
@@ -154,10 +154,10 @@
   {
     "title": "One Punch Man",
     "description": "Nothing to say, the title says it all. A superhero satire that follows the story of Saitama, a hero who can defeat any opponent with a single punch. Very good anime ruined by bad animation. If you read manga, I would recommend to read manga instead.",
-    "rating": 7.0,
+    "rating": 6.0,
     "image_src": "./posters/animes/opm.jpg",
     "status": "Ongoing",
-    "episodes": 24
+    "episodes": 37
   },
   {
     "title": "Parasyte: The Maxim",
@@ -210,7 +210,7 @@
   {
     "title": "Chainsaw Man",
     "description": "A crazy and dark anime about devils and demon hunters. The story is unpredictable and filled with intense action scenes. But too much fanservice though. Recommended for those who enjoy dark fantasy.",
-    "rating": 7.5,
+    "rating": 8.0,
     "image_src": "./posters/animes/chainsaw-man.jpg",
     "status": "Ongoing",
     "episodes": 12
@@ -260,8 +260,24 @@
     "description": "An anime about how the impact of tortured souls can affect the society around them. A very deep and thought-provoking anime with a good storyline and character development. The animation is decent and the soundtrack is amazing. Definitely a must-watch for those who enjoy psychological thrillers.",
     "rating": 7.5,
     "image_src": "./posters/animes/terror-in-resonance.jpg",
-    "status": "Ongoing",
+    "status": "Completed",
     "episodes": 11
+  },
+  {
+    "title": "Hunter x Hunter",
+    "description": "One of the best animes made showcasing adventure, friendship, and personal growth. The story has a kind of mystery and exploration that keeps you hooked. The characters are well-developed and the world-building is exceptional. A must-watch for any anime lover.",
+    "rating": 8.5,
+    "image_src": "./posters/animes/hxh.jpg",
+    "status": "Completed",
+    "episodes": 148
+  },
+  {
+    "title": "Sentenced To Be A Hero",
+    "description": "The best start to an isekai anime I have ever seen. The story is engaging and the character development is solid. The animation is top-notch and the world-building is impressive. Highly recommend for fans of isekai and fantasy genres.",
+    "rating": 8.5,
+    "image_src": "./posters/animes/stbah.jpg",
+    "status": "Ongoing",
+    "episodes": 12
   }
 
 ]

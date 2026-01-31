@@ -95,7 +95,7 @@
         }
 
         function populateYearFilter() {
-            const years = [...new Set(movieData.map(m => m.year.toString()))].sort((a, b) => b - a);
+            const years = [...new Set(movieData.map(m => Number(m.year)))].sort((a, b) => b - a);
             yearFilter.innerHTML = '<option value="All">All Years</option>';
             years.forEach(y => {
                 const opt = document.createElement('option');
@@ -159,42 +159,31 @@
         }
 
         function applyFilters() {
-            const search = document.getElementById('movie-search').value.toLowerCase();
-            const yearVal = yearFilter.value;
-            const epRange = document.getElementById('episode-filter').value;
-            const blocks = document.querySelectorAll('.content-block');
-            let found = 0;
+    const search = document.getElementById('movie-search').value.toLowerCase();
+    const yearVal = document.getElementById('year-filter').value;
+    const blocks = document.querySelectorAll('.content-block');
+    let found = 0;
 
-            blocks.forEach(b => {
-                const title = b.querySelector('.card-title').textContent.toLowerCase();
-                const year = b.getAttribute('data-year');
-                const episodes = parseInt(b.getAttribute('data-episodes')) || 0;
+    blocks.forEach(b => {
+        const title = b.querySelector('.card-title').textContent.toLowerCase();
+        const year = Number(b.getAttribute('data-year'));
+        const selectedYear = yearVal === 'All' ? 'All' : Number(yearVal);
 
-                const searchMatch = title.includes(search);
-                const yearMatch = (yearVal === 'All' || year === yearVal);
+        const searchMatch = title.includes(search);
+        const yearMatch = (selectedYear === 'All' || year === selectedYear);
 
-                let epMatch = false;
-                if (epRange === 'All') {
-                    epMatch = true;
-                } else if (epRange === 'under10') {
-                    epMatch = episodes < 10;
-                } else if (epRange === 'under30') {
-                    epMatch = episodes < 30;
-                } else if (epRange === 'under100') {
-                    epMatch = episodes < 100;
-                } else if (epRange === 'over100') {
-                    epMatch = episodes >= 100;
-                }
-
-                if (searchMatch && yearMatch && epMatch) {
-                    b.style.display = 'block';
-                    found++;
-                } else {
-                    b.style.display = 'none';
-                }
-            });
-            document.getElementById('no-results-alert').style.display = found === 0 ? 'flex' : 'none';
+        if (searchMatch && yearMatch) {
+            b.style.display = 'block';
+            found++;
+        } else {
+            b.style.display = 'none';
         }
+    });
+
+    document.getElementById('no-results-alert').style.display =
+        found === 0 ? 'flex' : 'none';
+}
+
         document.addEventListener('DOMContentLoaded', fetchMovieData);
     </script>
 </body>

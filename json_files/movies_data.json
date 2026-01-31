@@ -222,5 +222,40 @@
     "rating": 8.0,
     "year": 2025,
     "image_src": "./posters/movies/zootopia2.jpg"
+  },
+  {
+    "title": "Durandhar",
+    "description": "One of the best spy/action movies in recent times. A story based on true events with stunning action sequences and great performances. A must watch for action and thriller lovers.",
+    "rating": 8.5,
+    "year": 2025,
+    "image_src": "./posters/movies/durandhar.jpg"
+  },
+  {
+    "title": "Anaganaga Oka Raju",
+    "description": "A classic Telugu film with a perfect blend of romance, comedy, and drama. The story is a bit lagging at times but the comedy makes up for it. A good watch.",
+    "rating": 7.5,
+    "year": 2026,
+    "image_src": "./posters/movies/aor.jpg"
+  },
+  {
+    "title": "Nari Nari Naduma Murari",
+    "description": "Another classic Sharwanand movie with a good mix of comedy and drama. The performances are good and the story is engaging. A decent watch overall.",
+    "rating": 7.5,
+    "year": 2026,
+    "image_src": "./posters/movies/nnnm.jpg"
+  },
+  {
+    "title": "The Great Flood",
+    "description": "A very badly executed movie with poor storyline and bad ending. The concept had potential but the story execution ruined it completely. The performances were good though. I don't recommend to watch it.",
+    "rating": 5.0,
+    "year": 2025,
+    "image_src": "./posters/movies/the_great_flood.jpg"
+  },
+  {
+    "title": "Wake Up Dead Man: A Knives Out Mystery",
+    "description": "A very well-written mystery movie with a good cast and engaging storyline. The twists and turns keep you hooked till the end. The best in the triology in my opinion and a must watch!!.",
+    "rating": 8.0,
+    "year": 2025,
+    "image_src": "./posters/movies/wudm.jpeg"
   }
 ]
