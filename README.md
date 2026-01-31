@@ -9,6 +9,7 @@ A sleek, responsive personal scoreboard for tracking and rating Movies, Anime, a
     * Search by title with live results.
     * Filter Movies by release year.
     * Filter Anime and Series by status (Ongoing/Completed).
+    * Filter Anime and Series by number of episodes (less than 10/less than 30/less than 100/above 100)
 * **Auto-Sorting**: High-rated titles are automatically prioritized at the top of the list.
 * **Responsive Design**: Built with **Bootstrap 5.3**, ensuring a premium experience on mobile, tablet, and desktop.
 * **Custom UI**: Features a custom dark-themed CSS with glassmorphism-inspired hover effects and gold accents.
@@ -39,7 +40,7 @@ Movie-Rating-Website/
 
 1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/White-Wolf-18/Movie-Rating-Website.git](https://github.com/White-Wolf-18/Movie-Rating-Website.git)
+   git clone [https://github.com/White-Wolf-18/Rating-Website.git](https://github.com/White-Wolf-18/Rating-Website.git)
    ```
 2. **Setup your data: Ensure your JSON files (e.g., movies_data.json) are structured as follows in the json_files/ folder**:
    ```bash
